@@ -1,0 +1,5 @@
+files
+tf.tar
+environment/development/.terraform
+environment/development/terraform.tfstate.backup
+environment/development/server.*
