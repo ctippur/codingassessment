@@ -13,6 +13,13 @@ resource "aws_elb" "elb" {
     ssl_certificate_id = "arn:aws:acm:us-west-2:712971639638:certificate/c9340634-2808-4273-9f67-4c37734b30ad"
   }
 
+  listener {
+    lb_port = 80
+    lb_protocol = "http"
+    instance_port = 8900
+    instance_protocol = "http"
+  }
+
   health_check {
     healthy_threshold   = 2
     unhealthy_threshold = 2
