@@ -1,5 +1,5 @@
 # Purpose
-The outcome of this exercisw is to use required tools to generate the set of resources on AWS as per the guidelines provided to me.
+The outcome of this exercise is to use required tools to generate the set of resources on AWS as per the guidelines provided to me (see requirements below).
 
 # Requirements
 ```
